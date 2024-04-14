@@ -1,0 +1,15 @@
+
+class Student{
+    private :
+    int a,b,c,d,e;
+    public :
+        Student() : a(0),b(0),c(0),d(0),e(0) {}
+       Student(int _a,int _b,int _c,int _d,int _e) : a(_a),b(_b),c(_c),d(_d),e(_e) {}
+        void input(){
+            cin >> a >> b >> c >> d >> e;
+        }
+        int calculateTotalScore(){
+            return a + b + c + d +e;
+        }
+};
+
